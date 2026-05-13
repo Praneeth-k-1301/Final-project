@@ -1,0 +1,30 @@
+# Environment Variables
+.env
+.env.local
+.env.*
+
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+model.pkl
+*.log
+.DS_Store

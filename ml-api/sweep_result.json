@@ -1,0 +1,193 @@
+{
+  "best_model": "random_forest_balanced",
+  "best_feature_set": "extended_runtime",
+  "best_threshold": 0.4252,
+  "best_metrics": {
+    "accuracy": 0.9978,
+    "precision": 0.3415,
+    "recall": 0.3237,
+    "f1": 0.3323,
+    "roc_auc": 0.895,
+    "average_precision": 0.245
+  },
+  "confusion_matrix": [
+    [
+      99719,
+      108
+    ],
+    [
+      117,
+      56
+    ]
+  ],
+  "cross_validation": {
+    "folds": 5,
+    "summary": {
+      "accuracyMean": 0.99786,
+      "accuracyStd": 8.565920849504802e-05,
+      "precisionMean": 0.3887081288645144,
+      "precisionStd": 0.024682852153207212,
+      "recallMean": 0.42417891773537686,
+      "recallStd": 0.06645550418469044,
+      "f1Mean": 0.4042779449013043,
+      "f1Std": 0.04297333128359613,
+      "rocAucMean": 0.8954803021505902,
+      "rocAucStd": 0.015360840379209192,
+      "averagePrecisionMean": 0.30350460638830673,
+      "averagePrecisionStd": 0.04981762426478145,
+      "thresholdMean": 0.392727596881172,
+      "thresholdStd": 0.01597751476155922
+    },
+    "perFold": [
+      {
+        "accuracy": 0.9979,
+        "precision": 0.39864864864864863,
+        "recall": 0.427536231884058,
+        "f1": 0.4125874125874126,
+        "roc_auc": 0.8930049262514069,
+        "average_precision": 0.3175397235567664,
+        "threshold": 0.37639283022030773
+      },
+      {
+        "accuracy": 0.9978,
+        "precision": 0.38271604938271603,
+        "recall": 0.4492753623188406,
+        "f1": 0.4133333333333334,
+        "roc_auc": 0.9101221799633353,
+        "average_precision": 0.3345766037711575,
+        "threshold": 0.39646753617334995
+      },
+      {
+        "accuracy": 0.9979875,
+        "precision": 0.4311377245508982,
+        "recall": 0.5217391304347826,
+        "f1": 0.4721311475409836,
+        "roc_auc": 0.9142291739482489,
+        "average_precision": 0.3720719185147148,
+        "threshold": 0.3761888333611737
+      },
+      {
+        "accuracy": 0.9977375,
+        "precision": 0.36129032258064514,
+        "recall": 0.4057971014492754,
+        "f1": 0.3822525597269625,
+        "roc_auc": 0.8719645555249472,
+        "average_precision": 0.25315241306283814,
+        "threshold": 0.4194943797066575
+      },
+      {
+        "accuracy": 0.997875,
+        "precision": 0.3697478991596639,
+        "recall": 0.31654676258992803,
+        "f1": 0.3410852713178294,
+        "roc_auc": 0.888080675065012,
+        "average_precision": 0.24018237303605672,
+        "threshold": 0.3950944049443709
+      }
+    ]
+  },
+  "dataset": {
+    "rows": 500000,
+    "featureColumns": [
+      "clickFrequency",
+      "timeInterval",
+      "deviceCode",
+      "app",
+      "osCode",
+      "channel",
+      "hourOfDay",
+      "ipClickCount",
+      "appClickCount",
+      "ipAppCount",
+      "burstScore",
+      "timeSinceLastClickPerDevice",
+      "clickCountLast10Seconds",
+      "clickCountLast60Seconds",
+      "clickCountLast10Minutes",
+      "deviceAppEntropy",
+      "deviceIpRatio",
+      "uniqueAppsPerDevice",
+      "uniqueDevicesPerIp",
+      "burstClickScore"
+    ],
+    "class_balance": 0.001728,
+    "observedAttributionRate": 0.001728,
+    "suspicious_rate": 0.998272,
+    "observedSuspiciousProxyRate": 0.998272,
+    "thresholdSource": "engineered_from_raw_click_history",
+    "targetLabel": "is_attributed",
+    "positiveClassMeaning": "Attributed click (proxy for valid click)",
+    "negativeClassMeaning": "Non-attributed click (proxy for suspicious click, not ground-truth fraud)",
+    "featureSet": "extended_runtime",
+    "datasetName": "train.csv",
+    "maxRowsLoaded": 500000,
+    "trainRows": 300000,
+    "validationRows": 100000,
+    "testRows": 100000,
+    "trainClassBalance": 0.0017266666666666667,
+    "validationClassBalance": 0.00173,
+    "testClassBalance": 0.00173,
+    "selectedFeatureSet": "extended_runtime",
+    "minorityTrainCount": 518,
+    "majorityTrainCount": 299482
+  },
+  "experiment_table": [
+    {
+      "experiment": "logistic_regression",
+      "model": "logistic_regression",
+      "feature_set": "extended_runtime",
+      "sampler": "",
+      "threshold": 0.9871,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.0,
+      "average_precision": 0.0,
+      "val_f1": 0.0,
+      "val_roc_auc": 0.0
+    },
+    {
+      "experiment": "random_forest_balanced",
+      "model": "random_forest_balanced",
+      "feature_set": "extended_runtime",
+      "sampler": "",
+      "threshold": 0.4252,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.0,
+      "average_precision": 0.0,
+      "val_f1": 0.0,
+      "val_roc_auc": 0.0
+    },
+    {
+      "experiment": "hist_gradient_boosting",
+      "model": "hist_gradient_boosting",
+      "feature_set": "extended_runtime",
+      "sampler": "",
+      "threshold": 0.9335,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.0,
+      "average_precision": 0.0,
+      "val_f1": 0.0,
+      "val_roc_auc": 0.0
+    },
+    {
+      "experiment": "hist_gradient_boosting_weighted",
+      "model": "hist_gradient_boosting_weighted",
+      "feature_set": "extended_runtime",
+      "sampler": "",
+      "threshold": 0.9881,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.0,
+      "average_precision": 0.0,
+      "val_f1": 0.0,
+      "val_roc_auc": 0.0
+    }
+  ],
+  "total_experiments": 4
+}

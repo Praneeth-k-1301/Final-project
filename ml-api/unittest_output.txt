@@ -1,0 +1,12 @@
+test_cross_validation_uses_nested_calibration_split (test_pipeline.PipelineTestCase) ... ok
+test_engineering_accepts_external_thresholds_and_records_source (test_pipeline.PipelineTestCase) ... ok
+test_engineering_produces_expected_columns (test_pipeline.PipelineTestCase) ... ok
+test_prediction_frame_uses_defaults_and_runtime_fields (test_pipeline.PipelineTestCase) ... ok
+test_rebalance_training_data_caps_majority_ratio_on_training_only_copy (test_pipeline.PipelineTestCase) ... ok
+test_rebalance_training_data_supports_smote_training_only (test_pipeline.PipelineTestCase) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.672s
+
+OK
+WAS_SUCCESSFUL=True

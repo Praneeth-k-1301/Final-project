@@ -1,0 +1,4022 @@
+{
+  "campaigns": [
+    {
+      "id": "cmp-seeded-demo",
+      "cid": "cid-seeded-demo",
+      "title": "TalkingData Quality Screen Demo",
+      "image": "data:image/svg+xml;charset=UTF-8,%0A%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20320%22%3E%0A%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231d4ed8%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%230f172a%22%2F%3E%0A%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3CradialGradient%20id%3D%22glow%22%20cx%3D%220.2%22%20cy%3D%220.15%22%20r%3D%220.9%22%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2393c5fd%22%20stop-opacity%3D%220.28%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2393c5fd%22%20stop-opacity%3D%220%22%2F%3E%0A%20%20%20%20%20%20%3C%2FradialGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22320%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22320%22%20fill%3D%22url(%23glow)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2234%22%20y%3D%2254%22%20width%3D%22572%22%20height%3D%22212%22%20rx%3D%2224%22%20fill%3D%22rgba(15%2C23%2C42%2C0.16)%22%20stroke%3D%22rgba(191%2C219%2C254%2C0.22)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22320%22%20y%3D%22154%22%20text-anchor%3D%22middle%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2228%22%20font-weight%3D%22700%22%3EAdChain%20Campaign%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22320%22%20y%3D%22193%22%20text-anchor%3D%22middle%22%20fill%3D%22%23bfdbfe%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%3ECreative%20preview%20unavailable%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E%0A",
+      "targetUrl": "https://example.com",
+      "payoutEth": "0.0010",
+      "budgetEth": "0.0500",
+      "remainingBudgetEth": "0.0380",
+      "appCode": 12,
+      "osCode": 13,
+      "channelCode": 111,
+      "advertiserAddress": "",
+      "status": "active",
+      "createdAt": "2026-03-10T00:00:00.000Z",
+      "updatedAt": "2026-03-13T15:19:14.837Z",
+      "metrics": {
+        "clicks": 55,
+        "validClicks": 27,
+        "fraudBlocked": 28,
+        "settlements": 12,
+        "confirmedSettlements": 12,
+        "simulatedSettlements": 8,
+        "recordedSettlements": 20
+      },
+      "ipfsCid": null,
+      "ipfsStatus": "unconfigured",
+      "ipfsLastCheckedAt": null
+    }
+  ],
+  "clickLogs": [
+    {
+      "id": "cid-8e602496c2b66f43f5a1526f",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "cid-e50ba33a466c08231299c890",
+      "eventFingerprint": "cid-7b170c96b06b55ae7d55ab89",
+      "eventId": "0xdba6784743154fb70107229ce63c1600283f2a626993e6d7d436e1c1d97545e9",
+      "visitorKey": "cd5aca04-3a27-4395-bb9e-08d07590e1f7",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2026-03-13T15:19:01.364Z",
+      "processedAt": "2026-03-13T15:19:14.837Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.363646045,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 16,
+      "validationLatencyMs": 13468,
+      "features": {
+        "visitorKey": "cd5aca04-3a27-4395-bb9e-08d07590e1f7",
+        "timestamp": "2026-03-13T15:19:01.364Z",
+        "clickFrequency": 4,
+        "timeInterval": 31727,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 15,
+        "ipClickCount": 4,
+        "appClickCount": 45,
+        "ipAppCount": 4,
+        "burstScore": 0.1261,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 2,
+        "clickCountLast10Minutes": 4,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 0.25,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.2648
+      },
+      "explanation": {
+        "summary": "Model confidence stayed above threshold",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.1261 indicates compressed click activity."
+          },
+          {
+            "key": "repeat-visitor-app",
+            "label": "Visitor-app repetition",
+            "tone": "risk",
+            "detail": "Visitor/app pair repeated 4 times."
+          },
+          {
+            "key": "session-burst",
+            "label": "Session burst",
+            "tone": "risk",
+            "detail": "4 clicks were observed in the rolling session window."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "unsigned-local",
+        "signerCount": 0,
+        "requiredQuorum": 0,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [],
+        "signatureCount": 0
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "confirmed",
+        "simulationMode": false,
+        "payoutEth": "0.0010",
+        "eventId": "0xdba6784743154fb70107229ce63c1600283f2a626993e6d7d436e1c1d97545e9",
+        "settlementMethod": "legacy",
+        "transactionHash": "0x55df7fa075884617092146fee11104e68e2eb0402622e206e754bef9ef9de4cd",
+        "blockNumber": 10439825,
+        "gasUsed": "34268",
+        "settlementLatencyMs": 13439,
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0x55df7fa075884617092146fee11104e68e2eb0402622e206e754bef9ef9de4cd"
+      }
+    },
+    {
+      "id": "cid-b9558bd2b4035481db692d1d",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "cid-2d06e507b2576b755bc8dfa1",
+      "eventFingerprint": "cid-aa24b5a3dc41834bd6d1190c",
+      "eventId": "0x3ed07645eb1dd96237601f1907976b558386f8ba7cde130780e7405ecfe297f7",
+      "visitorKey": "cd5aca04-3a27-4395-bb9e-08d07590e1f7",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2026-03-13T15:18:29.637Z",
+      "processedAt": "2026-03-13T15:18:38.881Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.363646045,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 24,
+      "validationLatencyMs": 9236,
+      "features": {
+        "visitorKey": "cd5aca04-3a27-4395-bb9e-08d07590e1f7",
+        "timestamp": "2026-03-13T15:18:29.637Z",
+        "clickFrequency": 3,
+        "timeInterval": 31838,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 15,
+        "ipClickCount": 3,
+        "appClickCount": 44,
+        "ipAppCount": 3,
+        "burstScore": 0.0942,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 2,
+        "clickCountLast10Minutes": 3,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 0.3333,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.2607
+      },
+      "explanation": {
+        "summary": "Model confidence stayed above threshold",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0942 indicates compressed click activity."
+          },
+          {
+            "key": "repeat-visitor-app",
+            "label": "Visitor-app repetition",
+            "tone": "risk",
+            "detail": "Visitor/app pair repeated 3 times."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "unsigned-local",
+        "signerCount": 0,
+        "requiredQuorum": 0,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [],
+        "signatureCount": 0
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "confirmed",
+        "simulationMode": false,
+        "payoutEth": "0.0010",
+        "eventId": "0x3ed07645eb1dd96237601f1907976b558386f8ba7cde130780e7405ecfe297f7",
+        "settlementMethod": "legacy",
+        "transactionHash": "0x11fcafbb7988bd97140e1ac3915213e4fa0ad9c50bbac1ad8b8ed55cf89657fa",
+        "blockNumber": 10439822,
+        "gasUsed": "34268",
+        "settlementLatencyMs": 9202,
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0x11fcafbb7988bd97140e1ac3915213e4fa0ad9c50bbac1ad8b8ed55cf89657fa"
+      }
+    },
+    {
+      "id": "cid-f3c2438cb8dea8ba015a1622",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "cid-f8f447df941f23f7cd223324",
+      "eventFingerprint": "cid-4a2500652587c7ef1d649396",
+      "eventId": "0xc0103a08e9b75065e2525a6a267ec7110128ccbf68394967d8048e4345d60633",
+      "visitorKey": "cd5aca04-3a27-4395-bb9e-08d07590e1f7",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2026-03-13T15:17:57.799Z",
+      "processedAt": "2026-03-13T15:18:15.335Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.3512175878,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 25,
+      "validationLatencyMs": 17505,
+      "features": {
+        "visitorKey": "cd5aca04-3a27-4395-bb9e-08d07590e1f7",
+        "timestamp": "2026-03-13T15:17:57.799Z",
+        "clickFrequency": 2,
+        "timeInterval": 129309,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 15,
+        "ipClickCount": 2,
+        "appClickCount": 43,
+        "ipAppCount": 2,
+        "burstScore": 0.0155,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 2,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 0.5,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.0557
+      },
+      "explanation": {
+        "summary": "normal click cadence",
+        "signals": [
+          {
+            "key": "normal-cadence",
+            "label": "Normal click cadence",
+            "tone": "supporting",
+            "detail": "Time between clicks was 129 seconds."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "unsigned-local",
+        "signerCount": 0,
+        "requiredQuorum": 0,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [],
+        "signatureCount": 0
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "confirmed",
+        "simulationMode": false,
+        "payoutEth": "0.0010",
+        "eventId": "0xc0103a08e9b75065e2525a6a267ec7110128ccbf68394967d8048e4345d60633",
+        "settlementMethod": "legacy",
+        "transactionHash": "0xcccf4a8c428cdd74aba6eb8f2d35be8c4ee7a8765cde6c850c91d6fdecfe98b5",
+        "blockNumber": 10439821,
+        "gasUsed": "34268",
+        "settlementLatencyMs": 17463,
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0xcccf4a8c428cdd74aba6eb8f2d35be8c4ee7a8765cde6c850c91d6fdecfe98b5"
+      }
+    },
+    {
+      "id": "cid-8704b61b6baf904682ec3aea",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "cid-5f7582699ab24b38b0ea64db",
+      "eventFingerprint": "cid-816a1112f88a746a6a0206c7",
+      "eventId": "0x802adc9e804ef4c7ee6015cec64f55d5c595771675b86c554b23d4363302d669",
+      "visitorKey": "cd5aca04-3a27-4395-bb9e-08d07590e1f7",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2026-03-13T15:15:48.490Z",
+      "processedAt": "2026-03-13T15:15:48.772Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.3997400014,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 20,
+      "validationLatencyMs": 274,
+      "features": {
+        "visitorKey": "cd5aca04-3a27-4395-bb9e-08d07590e1f7",
+        "timestamp": "2026-03-13T15:15:48.490Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 15,
+        "ipClickCount": 1,
+        "appClickCount": 42,
+        "ipAppCount": 1,
+        "burstScore": 0.0333,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 1,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 1,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.2367
+      },
+      "explanation": {
+        "summary": "Model confidence stayed above threshold",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "unsigned-local",
+        "signerCount": 0,
+        "requiredQuorum": 0,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [],
+        "signatureCount": 0
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "failed",
+        "simulationMode": false,
+        "payoutEth": "0.0010",
+        "eventId": "0x802adc9e804ef4c7ee6015cec64f55d5c595771675b86c554b23d4363302d669",
+        "settlementMethod": "legacy",
+        "errorCode": "CALL_EXCEPTION",
+        "errorMessage": "execution reverted (unknown custom error)"
+      }
+    },
+    {
+      "id": "cid-b10beca6647c2277760c60c1",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "cid-1fe46224ea654501d555c59e",
+      "eventFingerprint": "cid-c8929b102f22a239d2488536",
+      "eventId": "0x7298f973ab50aa05d87ea83d7a784cf1c52dafc96a90592aae996ca2571b270d",
+      "visitorKey": "3c65cc8e-d45e-4742-8e6c-e4f8a947b332",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2026-03-13T15:10:29.547Z",
+      "processedAt": "2026-03-13T15:10:29.841Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.3875108716,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 22,
+      "validationLatencyMs": 287,
+      "features": {
+        "visitorKey": "3c65cc8e-d45e-4742-8e6c-e4f8a947b332",
+        "timestamp": "2026-03-13T15:10:29.547Z",
+        "clickFrequency": 3,
+        "timeInterval": 21410,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 15,
+        "ipClickCount": 6,
+        "appClickCount": 41,
+        "ipAppCount": 6,
+        "burstScore": 0.1401,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 3,
+        "clickCountLast10Minutes": 3,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 0.1667,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.4344
+      },
+      "explanation": {
+        "summary": "Model confidence stayed above threshold",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.1401 indicates compressed click activity."
+          },
+          {
+            "key": "repeat-visitor-app",
+            "label": "Visitor-app repetition",
+            "tone": "risk",
+            "detail": "Visitor/app pair repeated 6 times."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "unsigned-local",
+        "signerCount": 0,
+        "requiredQuorum": 0,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [],
+        "signatureCount": 0
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "failed",
+        "simulationMode": false,
+        "payoutEth": "0.0010",
+        "eventId": "0x7298f973ab50aa05d87ea83d7a784cf1c52dafc96a90592aae996ca2571b270d",
+        "settlementMethod": "legacy",
+        "errorCode": "CALL_EXCEPTION",
+        "errorMessage": "execution reverted (unknown custom error)"
+      }
+    },
+    {
+      "id": "cid-14aa6a3ecfd2a0e9375a2f81",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "cid-ec6ef1d421962e9d0395effe",
+      "eventFingerprint": "cid-6c288ba0ffba7e11ce9102e7",
+      "eventId": "0x6efe901bf5167f5667365a7e846cd01d87676e1785a9d895363229c85a981f10",
+      "visitorKey": "3c65cc8e-d45e-4742-8e6c-e4f8a947b332",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2026-03-13T15:10:08.137Z",
+      "processedAt": "2026-03-13T15:10:08.394Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.363646045,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 16,
+      "validationLatencyMs": 251,
+      "features": {
+        "visitorKey": "3c65cc8e-d45e-4742-8e6c-e4f8a947b332",
+        "timestamp": "2026-03-13T15:10:08.137Z",
+        "clickFrequency": 2,
+        "timeInterval": 12850,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 15,
+        "ipClickCount": 5,
+        "appClickCount": 40,
+        "ipAppCount": 5,
+        "burstScore": 0.1556,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 2,
+        "clickCountLast10Minutes": 2,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 0.2,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.6381
+      },
+      "explanation": {
+        "summary": "Model confidence stayed above threshold",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.1556 indicates compressed click activity."
+          },
+          {
+            "key": "repeat-visitor-app",
+            "label": "Visitor-app repetition",
+            "tone": "risk",
+            "detail": "Visitor/app pair repeated 5 times."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "unsigned-local",
+        "signerCount": 0,
+        "requiredQuorum": 0,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [],
+        "signatureCount": 0
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "failed",
+        "simulationMode": false,
+        "payoutEth": "0.0010",
+        "eventId": "0x6efe901bf5167f5667365a7e846cd01d87676e1785a9d895363229c85a981f10",
+        "settlementMethod": "legacy",
+        "errorCode": "CALL_EXCEPTION",
+        "errorMessage": "execution reverted (unknown custom error)"
+      }
+    },
+    {
+      "id": "cid-ccd23355b21a760e509f36a7",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "cid-e57502a34bd5cbcb037235a0",
+      "eventFingerprint": "cid-0be39a9b40d1775cf77c32c8",
+      "eventId": "0x837758886fc8a30491a0901565160556f6a06ee1e3558d9673e784d9b73b0657",
+      "visitorKey": "3c65cc8e-d45e-4742-8e6c-e4f8a947b332",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2026-03-13T15:09:55.287Z",
+      "processedAt": "2026-03-13T15:09:55.511Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.3821243707,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 23,
+      "validationLatencyMs": 193,
+      "features": {
+        "visitorKey": "3c65cc8e-d45e-4742-8e6c-e4f8a947b332",
+        "timestamp": "2026-03-13T15:09:55.287Z",
+        "clickFrequency": 1,
+        "timeInterval": 4070647,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 15,
+        "ipClickCount": 4,
+        "appClickCount": 39,
+        "ipAppCount": 4,
+        "burstScore": 0.0002,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 1,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 0.25,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.0017
+      },
+      "explanation": {
+        "summary": "low burst score and normal click cadence",
+        "signals": [
+          {
+            "key": "low-burst-score",
+            "label": "Low burst score",
+            "tone": "supporting",
+            "detail": "Burst score 0.0002 stayed below the risk band."
+          },
+          {
+            "key": "normal-cadence",
+            "label": "Normal click cadence",
+            "tone": "supporting",
+            "detail": "Time between clicks was 4071 seconds."
+          },
+          {
+            "key": "repeat-visitor-app",
+            "label": "Visitor-app repetition",
+            "tone": "risk",
+            "detail": "Visitor/app pair repeated 4 times."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "unsigned-local",
+        "signerCount": 0,
+        "requiredQuorum": 0,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [],
+        "signatureCount": 0
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "failed",
+        "simulationMode": false,
+        "payoutEth": "0.0010",
+        "eventId": "0x837758886fc8a30491a0901565160556f6a06ee1e3558d9673e784d9b73b0657",
+        "settlementMethod": "legacy",
+        "errorCode": "CALL_EXCEPTION",
+        "errorMessage": "execution reverted (unknown custom error)"
+      }
+    },
+    {
+      "id": "cid-2a0b99d6b1a4fe3237da4e13",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "cid-f9edd100ec1b4d535880da25",
+      "eventFingerprint": "cid-faf786542a24506f00d65642",
+      "eventId": "0x572614cb437f028b80c25fa38f9cd59d987f4cae333897c71ba40057c4dd956c",
+      "visitorKey": "3c65cc8e-d45e-4742-8e6c-e4f8a947b332",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2026-03-13T14:02:04.640Z",
+      "processedAt": "2026-03-13T14:02:04.727Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.3821243707,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 35,
+      "validationLatencyMs": 55,
+      "features": {
+        "visitorKey": "3c65cc8e-d45e-4742-8e6c-e4f8a947b332",
+        "timestamp": "2026-03-13T14:02:04.640Z",
+        "clickFrequency": 1,
+        "timeInterval": 1819452,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 14,
+        "ipClickCount": 3,
+        "appClickCount": 38,
+        "ipAppCount": 3,
+        "burstScore": 0.0005,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 1,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 0.3333,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.0039
+      },
+      "explanation": {
+        "summary": "low burst score and normal click cadence",
+        "signals": [
+          {
+            "key": "low-burst-score",
+            "label": "Low burst score",
+            "tone": "supporting",
+            "detail": "Burst score 0.0005 stayed below the risk band."
+          },
+          {
+            "key": "normal-cadence",
+            "label": "Normal click cadence",
+            "tone": "supporting",
+            "detail": "Time between clicks was 1819 seconds."
+          },
+          {
+            "key": "repeat-visitor-app",
+            "label": "Visitor-app repetition",
+            "tone": "risk",
+            "detail": "Visitor/app pair repeated 3 times."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "unsigned-local",
+        "signerCount": 0,
+        "requiredQuorum": 0,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [],
+        "signatureCount": 0
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "simulated",
+        "simulationMode": true,
+        "payoutEth": "0.0010",
+        "eventId": "0x572614cb437f028b80c25fa38f9cd59d987f4cae333897c71ba40057c4dd956c"
+      }
+    },
+    {
+      "id": "cid-d983c0ba7aa23cb970d450b7",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "cid-d56dccac89ca78fefb64ed1e",
+      "eventFingerprint": "cid-2f087d2084d7cbc4caba2afd",
+      "eventId": "0x95d26eec488e1ec3a62e0484ae31fe44b2ba8529ed8ca67a1adc38da11de53c1",
+      "visitorKey": "3c65cc8e-d45e-4742-8e6c-e4f8a947b332",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2026-03-13T13:31:45.188Z",
+      "processedAt": "2026-03-13T13:31:45.357Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.363646045,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 19,
+      "validationLatencyMs": 165,
+      "features": {
+        "visitorKey": "3c65cc8e-d45e-4742-8e6c-e4f8a947b332",
+        "timestamp": "2026-03-13T13:31:45.188Z",
+        "clickFrequency": 2,
+        "timeInterval": 17009,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 13,
+        "ipClickCount": 2,
+        "appClickCount": 37,
+        "ipAppCount": 2,
+        "burstScore": 0.1176,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 2,
+        "clickCountLast10Minutes": 2,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 0.5,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.4821
+      },
+      "explanation": {
+        "summary": "Model confidence stayed above threshold",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.1176 indicates compressed click activity."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "unsigned-local",
+        "signerCount": 0,
+        "requiredQuorum": 0,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [],
+        "signatureCount": 0
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "failed",
+        "simulationMode": false,
+        "payoutEth": "0.0010",
+        "eventId": "0x95d26eec488e1ec3a62e0484ae31fe44b2ba8529ed8ca67a1adc38da11de53c1",
+        "settlementMethod": "legacy",
+        "errorCode": "CALL_EXCEPTION",
+        "errorMessage": "execution reverted (unknown custom error)"
+      }
+    },
+    {
+      "id": "cid-129af9385304c82f33360229",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "cid-1567ee9d4ddc0de0173bb222",
+      "eventFingerprint": "cid-d2d12c1d427cd149e075be42",
+      "eventId": "0xa586986279ae0bcb9ab28308046015e8f038f71c0ffe44e6552f327c0f59fcac",
+      "visitorKey": "3c65cc8e-d45e-4742-8e6c-e4f8a947b332",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2026-03-13T13:31:28.179Z",
+      "processedAt": "2026-03-13T13:31:28.378Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.3997400014,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 26,
+      "validationLatencyMs": 163,
+      "features": {
+        "visitorKey": "3c65cc8e-d45e-4742-8e6c-e4f8a947b332",
+        "timestamp": "2026-03-13T13:31:28.179Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 13,
+        "ipClickCount": 1,
+        "appClickCount": 36,
+        "ipAppCount": 1,
+        "burstScore": 0.0333,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 1,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 1,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.2367
+      },
+      "explanation": {
+        "summary": "Model confidence stayed above threshold",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "unsigned-local",
+        "signerCount": 0,
+        "requiredQuorum": 0,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [],
+        "signatureCount": 0
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "failed",
+        "simulationMode": false,
+        "payoutEth": "0.0010",
+        "eventId": "0xa586986279ae0bcb9ab28308046015e8f038f71c0ffe44e6552f327c0f59fcac",
+        "settlementMethod": "legacy",
+        "errorCode": "CALL_EXCEPTION",
+        "errorMessage": "execution reverted (unknown custom error)"
+      }
+    },
+    {
+      "id": "cid-f958f03b3b03ea28b48186b0",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "cid-fbe5588538b26e0bfae33886",
+      "eventFingerprint": "cid-9993772ef8a93eeed9385b50",
+      "eventId": "0xef44ee3abcadea75d92525e2ee4184bccc7ab4ec0c1560a43951b8a2d004d921",
+      "visitorKey": "78280864-7d2b-45d8-bca6-f0c99fc55def",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2026-03-13T08:24:30.565Z",
+      "processedAt": "2026-03-13T08:24:30.599Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.1675172792,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 22,
+      "validationLatencyMs": 29,
+      "features": {
+        "visitorKey": "78280864-7d2b-45d8-bca6-f0c99fc55def",
+        "timestamp": "2026-03-13T08:24:30.565Z",
+        "clickFrequency": 4,
+        "timeInterval": 3930,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 8,
+        "ipClickCount": 5,
+        "appClickCount": 35,
+        "ipAppCount": 5,
+        "burstScore": 1.0178,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 2,
+        "clickCountLast60Seconds": 4,
+        "clickCountLast10Minutes": 4,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 0.2,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 4.173
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 1.0178 indicates compressed click activity."
+          },
+          {
+            "key": "repeat-visitor-app",
+            "label": "Visitor-app repetition",
+            "tone": "risk",
+            "detail": "Visitor/app pair repeated 5 times."
+          },
+          {
+            "key": "session-burst",
+            "label": "Session burst",
+            "tone": "risk",
+            "detail": "4 clicks were observed in the rolling session window."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "hmac-quorum",
+        "signerCount": 1,
+        "requiredQuorum": 1,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [
+          "oracle-1"
+        ],
+        "signatureCount": 1
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010",
+        "eventId": "0xef44ee3abcadea75d92525e2ee4184bccc7ab4ec0c1560a43951b8a2d004d921"
+      }
+    },
+    {
+      "id": "cid-b54b861c66ea7aaa90ad52ad",
+      "campaignId": "cmp-363416938ceee169",
+      "campaignTitle": "Shoes",
+      "requestId": "cid-b6eda134b6f2acdad45b6fc5",
+      "eventFingerprint": "cid-e043fa687e494e0010aa2f1b",
+      "eventId": "0x63eb3c431d67db3a9b1046d6a45e45ed67eab97d038c09e1e43e9c83ab939737",
+      "visitorKey": "78280864-7d2b-45d8-bca6-f0c99fc55def",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2026-03-13T08:24:26.635Z",
+      "processedAt": "2026-03-13T08:24:26.674Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.1763975635,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 24,
+      "validationLatencyMs": 31,
+      "features": {
+        "visitorKey": "78280864-7d2b-45d8-bca6-f0c99fc55def",
+        "timestamp": "2026-03-13T08:24:26.635Z",
+        "clickFrequency": 3,
+        "timeInterval": 7082,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 8,
+        "ipClickCount": 4,
+        "appClickCount": 34,
+        "ipAppCount": 4,
+        "burstScore": 0.4236,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 2,
+        "clickCountLast60Seconds": 3,
+        "clickCountLast10Minutes": 3,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 0.25,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 2.1604
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.4236 indicates compressed click activity."
+          },
+          {
+            "key": "repeat-visitor-app",
+            "label": "Visitor-app repetition",
+            "tone": "risk",
+            "detail": "Visitor/app pair repeated 4 times."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "hmac-quorum",
+        "signerCount": 1,
+        "requiredQuorum": 1,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [
+          "oracle-1"
+        ],
+        "signatureCount": 1
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010",
+        "eventId": "0x63eb3c431d67db3a9b1046d6a45e45ed67eab97d038c09e1e43e9c83ab939737"
+      }
+    },
+    {
+      "id": "cid-a8d9bc20ca580186a6eae0fd",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "cid-f0f18d339089a34c6b4b4fab",
+      "eventFingerprint": "cid-6f1311ccc6aa69a115b911d2",
+      "eventId": "0x626e8e0e761b26e03b37f75b0f247be4cfb30ba5a73204eaac03216588045578",
+      "visitorKey": "78280864-7d2b-45d8-bca6-f0c99fc55def",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2026-03-13T08:24:19.553Z",
+      "processedAt": "2026-03-13T08:24:24.546Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.363646045,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 24,
+      "validationLatencyMs": 4985,
+      "features": {
+        "visitorKey": "78280864-7d2b-45d8-bca6-f0c99fc55def",
+        "timestamp": "2026-03-13T08:24:19.553Z",
+        "clickFrequency": 2,
+        "timeInterval": 11666,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 8,
+        "ipClickCount": 3,
+        "appClickCount": 33,
+        "ipAppCount": 3,
+        "burstScore": 0.1714,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 2,
+        "clickCountLast10Minutes": 2,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 0.3333,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.7029
+      },
+      "explanation": {
+        "summary": "Model confidence stayed above threshold",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.1714 indicates compressed click activity."
+          },
+          {
+            "key": "repeat-visitor-app",
+            "label": "Visitor-app repetition",
+            "tone": "risk",
+            "detail": "Visitor/app pair repeated 3 times."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "hmac-quorum",
+        "signerCount": 1,
+        "requiredQuorum": 1,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [
+          "oracle-1"
+        ],
+        "signatureCount": 1
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "confirmed",
+        "simulationMode": false,
+        "payoutEth": "0.0010",
+        "eventId": "0x626e8e0e761b26e03b37f75b0f247be4cfb30ba5a73204eaac03216588045578",
+        "settlementMethod": "event-id",
+        "transactionHash": "0xea5a554dd0131281778f81d778bfcb592f05797118a309af040df28860f2a53f",
+        "blockNumber": 10437999,
+        "gasUsed": "62068",
+        "settlementLatencyMs": 4956,
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0xea5a554dd0131281778f81d778bfcb592f05797118a309af040df28860f2a53f"
+      }
+    },
+    {
+      "id": "cid-b56403ba6485e6c73fe65bc8",
+      "campaignId": "cmp-363416938ceee169",
+      "campaignTitle": "Shoes",
+      "requestId": "cid-0c5d7cc151c7566f3d2a772a",
+      "eventFingerprint": "cid-a25ec8275c56fb7e556f61b2",
+      "eventId": "0x50d8b1c7d9c6ccb9aa976748de8d61345347609b276162e3ed73f545163f60da",
+      "visitorKey": "78280864-7d2b-45d8-bca6-f0c99fc55def",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2026-03-13T08:24:07.887Z",
+      "processedAt": "2026-03-13T08:24:12.829Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.3821243707,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 74,
+      "validationLatencyMs": 4937,
+      "features": {
+        "visitorKey": "78280864-7d2b-45d8-bca6-f0c99fc55def",
+        "timestamp": "2026-03-13T08:24:07.887Z",
+        "clickFrequency": 1,
+        "timeInterval": 7838847,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 8,
+        "ipClickCount": 2,
+        "appClickCount": 32,
+        "ipAppCount": 2,
+        "burstScore": 0.0001,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 1,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 0.5,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.0009
+      },
+      "explanation": {
+        "summary": "low burst score and normal click cadence",
+        "signals": [
+          {
+            "key": "low-burst-score",
+            "label": "Low burst score",
+            "tone": "supporting",
+            "detail": "Burst score 0.0001 stayed below the risk band."
+          },
+          {
+            "key": "normal-cadence",
+            "label": "Normal click cadence",
+            "tone": "supporting",
+            "detail": "Time between clicks was 7839 seconds."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "hmac-quorum",
+        "signerCount": 1,
+        "requiredQuorum": 1,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [
+          "oracle-1"
+        ],
+        "signatureCount": 1
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "confirmed",
+        "simulationMode": false,
+        "payoutEth": "0.0010",
+        "eventId": "0x50d8b1c7d9c6ccb9aa976748de8d61345347609b276162e3ed73f545163f60da",
+        "settlementMethod": "event-id",
+        "transactionHash": "0x944f5f61d84f36c143ce9433bd3d34c9d566d2502256d62d9ad889e9b2d840be",
+        "blockNumber": 10437998,
+        "gasUsed": "62068",
+        "settlementLatencyMs": 4855,
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0x944f5f61d84f36c143ce9433bd3d34c9d566d2502256d62d9ad889e9b2d840be"
+      }
+    },
+    {
+      "id": "cid-63d642a403f7ba3a82161a70",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "cid-d33b882ee7317a03ac00e3f1",
+      "eventFingerprint": "cid-a416283f2a667756f95d9767",
+      "eventId": "0x9ac5ca692fc7b9bb49a1c0e96629146187890de8fa7ad7daa2c7874ed570846e",
+      "visitorKey": "dd4e54c1-344c-490b-89e7-8cd7181dbb8c",
+      "walletAddress": "",
+      "timestamp": "2026-03-13T07:13:39.024Z",
+      "processedAt": "2026-03-13T07:13:39.070Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.3997400014,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 32,
+      "validationLatencyMs": 42,
+      "features": {
+        "visitorKey": "dd4e54c1-344c-490b-89e7-8cd7181dbb8c",
+        "timestamp": "2026-03-13T07:13:39.024Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 7,
+        "ipClickCount": 1,
+        "appClickCount": 31,
+        "ipAppCount": 1,
+        "burstScore": 0.0333,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 1,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 1,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.2367
+      },
+      "explanation": {
+        "summary": "Model confidence stayed above threshold",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "hmac-quorum",
+        "signerCount": 1,
+        "requiredQuorum": 1,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [
+          "oracle-1"
+        ],
+        "signatureCount": 1
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "missing-wallet",
+        "payoutEth": "0.0010",
+        "eventId": "0x9ac5ca692fc7b9bb49a1c0e96629146187890de8fa7ad7daa2c7874ed570846e"
+      }
+    },
+    {
+      "id": "cid-13ecac996d23f8d23cb837dc",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "cid-dfd281bed61f78fd09c6be2d",
+      "eventFingerprint": "cid-1b0eeec6c474741fc1769218",
+      "eventId": "0xb8d3bec9550c5f0edcc46815fb3a9f3a7b95541a05dc21f1faafbd2bde17ade5",
+      "visitorKey": "78280864-7d2b-45d8-bca6-f0c99fc55def",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2026-03-13T06:13:29.040Z",
+      "processedAt": "2026-03-13T06:13:38.203Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.3997400014,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 15,
+      "validationLatencyMs": 9159,
+      "features": {
+        "visitorKey": "78280864-7d2b-45d8-bca6-f0c99fc55def",
+        "timestamp": "2026-03-13T06:13:29.040Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 6,
+        "ipClickCount": 1,
+        "appClickCount": 30,
+        "ipAppCount": 1,
+        "burstScore": 0.0333,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 1,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 1,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.2367
+      },
+      "explanation": {
+        "summary": "Model confidence stayed above threshold",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "hmac-quorum",
+        "signerCount": 1,
+        "requiredQuorum": 1,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [
+          "oracle-1"
+        ],
+        "signatureCount": 1
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "confirmed",
+        "simulationMode": false,
+        "payoutEth": "0.0010",
+        "eventId": "0xb8d3bec9550c5f0edcc46815fb3a9f3a7b95541a05dc21f1faafbd2bde17ade5",
+        "settlementMethod": "event-id",
+        "transactionHash": "0xc08c0a8af9ca06a90f2d7b4134a935f9e048f2a2450edab9cbda07a7ae24a883",
+        "blockNumber": 10437441,
+        "gasUsed": "62068",
+        "settlementLatencyMs": 9139,
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0xc08c0a8af9ca06a90f2d7b4134a935f9e048f2a2450edab9cbda07a7ae24a883"
+      }
+    },
+    {
+      "id": "cid-37d8135a5fabc1f31ccca377",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "cid-fd5b29befca3e046aa96f6ec",
+      "eventFingerprint": "cid-ade745acd88c82b440c603a9",
+      "eventId": "0x875c9a09effa2e0cd28118839b88a05e86a5f561e9ca4a47696cfd6b9587ff2b",
+      "visitorKey": "420ad15b-7e6d-41f4-8040-83f358f2c47b",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2026-03-13T05:34:22.853Z",
+      "processedAt": "2026-03-13T05:34:36.560Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.3997400014,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 12,
+      "validationLatencyMs": 13693,
+      "features": {
+        "visitorKey": "420ad15b-7e6d-41f4-8040-83f358f2c47b",
+        "timestamp": "2026-03-13T05:34:22.853Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 5,
+        "ipClickCount": 1,
+        "appClickCount": 29,
+        "ipAppCount": 1,
+        "burstScore": 0.0333,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 1,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 1,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.2367
+      },
+      "explanation": {
+        "summary": "Model confidence stayed above threshold",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "hmac-quorum",
+        "signerCount": 1,
+        "requiredQuorum": 1,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [
+          "oracle-1"
+        ],
+        "signatureCount": 1
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "confirmed",
+        "simulationMode": false,
+        "payoutEth": "0.0010",
+        "eventId": "0x875c9a09effa2e0cd28118839b88a05e86a5f561e9ca4a47696cfd6b9587ff2b",
+        "settlementMethod": "event-id",
+        "transactionHash": "0xe3fce303fbb87c7ec096dc964da822f82ddcf010f048d09ce065384db960f5de",
+        "blockNumber": 10437280,
+        "gasUsed": "79168",
+        "settlementLatencyMs": 13676,
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0xe3fce303fbb87c7ec096dc964da822f82ddcf010f048d09ce065384db960f5de"
+      }
+    },
+    {
+      "id": "cid-d0730cf8fb38ec153add684a",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "full-stack-smoke-1773378936747-4",
+      "eventFingerprint": "cid-d741e0496bcfb625cd2986a5",
+      "eventId": "0xb91369ef908f2b4806f558e54c484444a8322b415823cb9ae1adc407cbe6c9bd",
+      "visitorKey": "full-stack-visitor-1773378936747-4",
+      "walletAddress": "0x1111111111111111111111111111111111111111",
+      "timestamp": "2024-01-01T00:00:07.000Z",
+      "processedAt": "2026-03-13T05:15:49.919Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.3997400014,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 7,
+      "validationLatencyMs": 13153,
+      "features": {
+        "visitorKey": "full-stack-visitor-1773378936747-4",
+        "timestamp": "2024-01-01T00:00:07.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "mobile",
+        "deviceCode": 1,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 0,
+        "ipClickCount": 1,
+        "appClickCount": 28,
+        "ipAppCount": 1,
+        "burstScore": 0.0333,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 1,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 1,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.2367
+      },
+      "explanation": {
+        "summary": "Model confidence stayed above threshold",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "hmac-quorum",
+        "signerCount": 1,
+        "requiredQuorum": 1,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [
+          "oracle-1"
+        ],
+        "signatureCount": 1
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "confirmed",
+        "simulationMode": false,
+        "payoutEth": "0.0010",
+        "eventId": "0xb91369ef908f2b4806f558e54c484444a8322b415823cb9ae1adc407cbe6c9bd",
+        "settlementMethod": "event-id",
+        "transactionHash": "0xdd2cb4cc79d8c8b204430f7a49d2bd13b2356451d9903ea22ed0faa32f891f1b",
+        "blockNumber": 10437205,
+        "gasUsed": "62068",
+        "settlementLatencyMs": 13144,
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0xdd2cb4cc79d8c8b204430f7a49d2bd13b2356451d9903ea22ed0faa32f891f1b"
+      }
+    },
+    {
+      "id": "cid-e8aa4a46188422718e90b2a3",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "full-stack-smoke-1773378915266-3",
+      "eventFingerprint": "cid-bc8800fdf0ea3d0e061adaab",
+      "eventId": "0x6bb816056e1ea42870a483ec02f1a9cf7f84924a622a9a0f33290c4a1c323844",
+      "visitorKey": "full-stack-visitor-1773378915266-3",
+      "walletAddress": "0x1111111111111111111111111111111111111111",
+      "timestamp": "2024-01-01T00:00:06.000Z",
+      "processedAt": "2026-03-13T05:15:36.745Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.3997400014,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 7,
+      "validationLatencyMs": 21479,
+      "features": {
+        "visitorKey": "full-stack-visitor-1773378915266-3",
+        "timestamp": "2024-01-01T00:00:06.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 0,
+        "ipClickCount": 1,
+        "appClickCount": 27,
+        "ipAppCount": 1,
+        "burstScore": 0.0333,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 1,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 1,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.2367
+      },
+      "explanation": {
+        "summary": "Model confidence stayed above threshold",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "hmac-quorum",
+        "signerCount": 1,
+        "requiredQuorum": 1,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [
+          "oracle-1"
+        ],
+        "signatureCount": 1
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "confirmed",
+        "simulationMode": false,
+        "payoutEth": "0.0010",
+        "eventId": "0x6bb816056e1ea42870a483ec02f1a9cf7f84924a622a9a0f33290c4a1c323844",
+        "settlementMethod": "event-id",
+        "transactionHash": "0x6ca25847151c83717100ae73ffae748e32c6c91e631d5946d6b50f81f4aa551a",
+        "blockNumber": 10437204,
+        "gasUsed": "62068",
+        "settlementLatencyMs": 21469,
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0x6ca25847151c83717100ae73ffae748e32c6c91e631d5946d6b50f81f4aa551a"
+      }
+    },
+    {
+      "id": "cid-2a60de4a870738adf1e5da6a",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "full-stack-smoke-1773378889876-2",
+      "eventFingerprint": "cid-2020ff46aed25d004ba6ab9c",
+      "eventId": "0x3382e91bd8e689119c227389c3f41fb7b46ee3e8c1c32c6d85d90ffee3b07b08",
+      "visitorKey": "full-stack-visitor-1773378889876-2",
+      "walletAddress": "0x1111111111111111111111111111111111111111",
+      "timestamp": "2024-01-01T00:00:05.000Z",
+      "processedAt": "2026-03-13T05:15:15.263Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.3997400014,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 8,
+      "validationLatencyMs": 25385,
+      "features": {
+        "visitorKey": "full-stack-visitor-1773378889876-2",
+        "timestamp": "2024-01-01T00:00:05.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "mobile",
+        "deviceCode": 1,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 0,
+        "ipClickCount": 1,
+        "appClickCount": 26,
+        "ipAppCount": 1,
+        "burstScore": 0.0333,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 1,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 1,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.2367
+      },
+      "explanation": {
+        "summary": "Model confidence stayed above threshold",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "hmac-quorum",
+        "signerCount": 1,
+        "requiredQuorum": 1,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [
+          "oracle-1"
+        ],
+        "signatureCount": 1
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "confirmed",
+        "simulationMode": false,
+        "payoutEth": "0.0010",
+        "eventId": "0x3382e91bd8e689119c227389c3f41fb7b46ee3e8c1c32c6d85d90ffee3b07b08",
+        "settlementMethod": "event-id",
+        "transactionHash": "0x3b4ea851e4e0a323c5d118ea32c190c2d5a411ec120a94715970f8ea4338199a",
+        "blockNumber": 10437203,
+        "gasUsed": "62068",
+        "settlementLatencyMs": 25375,
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0x3b4ea851e4e0a323c5d118ea32c190c2d5a411ec120a94715970f8ea4338199a"
+      }
+    },
+    {
+      "id": "cid-d2d37d4ae0eda2f2747dd7c5",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "full-stack-smoke-1773378876688-1",
+      "eventFingerprint": "cid-b89c5dd90f5ab3661665fc14",
+      "eventId": "0xfa15b4febeec5b7bcaa7747c401b663a8cd460c26ffa178b99d435f7081d0eed",
+      "visitorKey": "full-stack-visitor-1773378876688-1",
+      "walletAddress": "0x1111111111111111111111111111111111111111",
+      "timestamp": "2024-01-01T00:00:04.000Z",
+      "processedAt": "2026-03-13T05:14:49.874Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.3997400014,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 8,
+      "validationLatencyMs": 13185,
+      "features": {
+        "visitorKey": "full-stack-visitor-1773378876688-1",
+        "timestamp": "2024-01-01T00:00:04.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 0,
+        "ipClickCount": 1,
+        "appClickCount": 25,
+        "ipAppCount": 1,
+        "burstScore": 0.0333,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 1,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 1,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.2367
+      },
+      "explanation": {
+        "summary": "Model confidence stayed above threshold",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "hmac-quorum",
+        "signerCount": 1,
+        "requiredQuorum": 1,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [
+          "oracle-1"
+        ],
+        "signatureCount": 1
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "confirmed",
+        "simulationMode": false,
+        "payoutEth": "0.0010",
+        "eventId": "0xfa15b4febeec5b7bcaa7747c401b663a8cd460c26ffa178b99d435f7081d0eed",
+        "settlementMethod": "event-id",
+        "transactionHash": "0xd4c43b33f7b90a817055c55f3fedd4776fbfea579cb592e3e396ab856f5edb48",
+        "blockNumber": 10437202,
+        "gasUsed": "62068",
+        "settlementLatencyMs": 13174,
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0xd4c43b33f7b90a817055c55f3fedd4776fbfea579cb592e3e396ab856f5edb48"
+      }
+    },
+    {
+      "id": "cid-6fe4d2913d57534a018c2f53",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "full-stack-smoke-1773378867674-0",
+      "eventFingerprint": "cid-78ca692039215b412a7da8cb",
+      "eventId": "0x9ff700403c5c793b6c95f6708d902c3145ef6f8552f32cab4314a8f123058848",
+      "visitorKey": "full-stack-visitor-1773378867674-0",
+      "walletAddress": "0x1111111111111111111111111111111111111111",
+      "timestamp": "2024-01-01T00:00:03.000Z",
+      "processedAt": "2026-03-13T05:14:36.684Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.3997400014,
+      "threshold": 0.3,
+      "model": "LightGBM (case 1:10)",
+      "mlLatencyMs": 8,
+      "validationLatencyMs": 8991,
+      "features": {
+        "visitorKey": "full-stack-visitor-1773378867674-0",
+        "timestamp": "2024-01-01T00:00:03.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "mobile",
+        "deviceCode": 1,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 0,
+        "ipClickCount": 1,
+        "appClickCount": 24,
+        "ipAppCount": 1,
+        "burstScore": 0.0333,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 1,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 1,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.2367
+      },
+      "explanation": {
+        "summary": "Model confidence stayed above threshold",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "hmac-quorum",
+        "signerCount": 1,
+        "requiredQuorum": 1,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [
+          "oracle-1"
+        ],
+        "signatureCount": 1
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "confirmed",
+        "simulationMode": false,
+        "payoutEth": "0.0010",
+        "eventId": "0x9ff700403c5c793b6c95f6708d902c3145ef6f8552f32cab4314a8f123058848",
+        "settlementMethod": "event-id",
+        "transactionHash": "0x08bf770e6c23d724a3517f22ccc7c9232179231e995cf57b3cc632ee899b13a5",
+        "blockNumber": 10437201,
+        "gasUsed": "62056",
+        "settlementLatencyMs": 8978,
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0x08bf770e6c23d724a3517f22ccc7c9232179231e995cf57b3cc632ee899b13a5"
+      }
+    },
+    {
+      "id": "cid-6ccf7ca34361ba215e0ef1db",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "cid-6600b953693d3bdf425eb60c",
+      "eventFingerprint": "cid-579242e863f30e7c8a3a9fa3",
+      "eventId": "0xed73d6fe6b95b0bff5e38adce6b9b8780f19e39e53391741ae1c6c192c4435ae",
+      "visitorKey": "8da1d722-145c-4c26-893f-b37c59164d7d",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2026-03-12T10:44:43.711Z",
+      "processedAt": "2026-03-12T10:44:43.728Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.0001757165,
+      "threshold": 0.8144325166,
+      "model": "hist_gradient_boosting_weighted",
+      "mlLatencyMs": 10,
+      "validationLatencyMs": 14,
+      "features": {
+        "visitorKey": "8da1d722-145c-4c26-893f-b37c59164d7d",
+        "timestamp": "2026-03-12T10:44:43.711Z",
+        "clickFrequency": 2,
+        "timeInterval": 8419,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 10,
+        "ipClickCount": 2,
+        "appClickCount": 23,
+        "ipAppCount": 2,
+        "burstScore": 0.2376,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 2,
+        "clickCountLast60Seconds": 2,
+        "clickCountLast10Minutes": 2,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 0.5,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 1.6867
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.2376 indicates compressed click activity."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "hmac-quorum",
+        "signerCount": 1,
+        "requiredQuorum": 1,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [
+          "oracle-1"
+        ],
+        "signatureCount": 1
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010",
+        "eventId": "0xed73d6fe6b95b0bff5e38adce6b9b8780f19e39e53391741ae1c6c192c4435ae"
+      }
+    },
+    {
+      "id": "cid-690ea1b928dc51c9d8418536",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "cid-cdb97ed25e1a9507e771f797",
+      "eventFingerprint": "cid-59a371ca1b11fe02b031e06f",
+      "eventId": "0x471fe665dc9716fe2001463e114032f421845ce7c0394af31c4eb49eb529f7af",
+      "visitorKey": "8da1d722-145c-4c26-893f-b37c59164d7d",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2026-03-12T10:44:35.292Z",
+      "processedAt": "2026-03-12T10:44:35.326Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.0001757165,
+      "threshold": 0.8144325166,
+      "model": "hist_gradient_boosting_weighted",
+      "mlLatencyMs": 11,
+      "validationLatencyMs": 15,
+      "features": {
+        "visitorKey": "8da1d722-145c-4c26-893f-b37c59164d7d",
+        "timestamp": "2026-03-12T10:44:35.292Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 10,
+        "ipClickCount": 1,
+        "appClickCount": 22,
+        "ipAppCount": 1,
+        "burstScore": 0.0333,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 1,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 1,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.2367
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "hmac-quorum",
+        "signerCount": 1,
+        "requiredQuorum": 1,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [
+          "oracle-1"
+        ],
+        "signatureCount": 1
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010",
+        "eventId": "0x471fe665dc9716fe2001463e114032f421845ce7c0394af31c4eb49eb529f7af"
+      }
+    },
+    {
+      "id": "cid-0ef139cef64d83279f6a9f95",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "full-stack-smoke-4",
+      "eventFingerprint": "cid-da972e73ee38eec1f2c58816",
+      "eventId": "0xa4d955c15f1cf462201bba6f19fc8cbba991ab3d2d74e546a100e425d6ace74e",
+      "visitorKey": "full-stack-smoke-4",
+      "walletAddress": "0x1111111111111111111111111111111111111111",
+      "timestamp": "2024-01-01T00:00:07.000Z",
+      "processedAt": "2026-03-12T10:04:34.114Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.0008082268,
+      "threshold": 0.8144325166,
+      "model": "hist_gradient_boosting_weighted",
+      "mlLatencyMs": 11,
+      "validationLatencyMs": 14,
+      "features": {
+        "visitorKey": "full-stack-smoke-4",
+        "timestamp": "2024-01-01T00:00:07.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "mobile",
+        "deviceCode": 1,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 0,
+        "ipClickCount": 1,
+        "appClickCount": 21,
+        "ipAppCount": 1,
+        "burstScore": 0.0333,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 1,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 1,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.2367
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "hmac-quorum",
+        "signerCount": 1,
+        "requiredQuorum": 1,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [
+          "oracle-1"
+        ],
+        "signatureCount": 1
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010",
+        "eventId": "0xa4d955c15f1cf462201bba6f19fc8cbba991ab3d2d74e546a100e425d6ace74e"
+      }
+    },
+    {
+      "id": "cid-8f257655d093e0a39c76da65",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "full-stack-smoke-3",
+      "eventFingerprint": "cid-e393deb90746fe3e8be2e92d",
+      "eventId": "0x7f8488f12f997da2915ca0cfb7a8d4bc5b8d17b16195728bed77241970cca465",
+      "visitorKey": "full-stack-smoke-3",
+      "walletAddress": "0x1111111111111111111111111111111111111111",
+      "timestamp": "2024-01-01T00:00:06.000Z",
+      "processedAt": "2026-03-12T10:04:34.080Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.0008082268,
+      "threshold": 0.8144325166,
+      "model": "hist_gradient_boosting_weighted",
+      "mlLatencyMs": 10,
+      "validationLatencyMs": 12,
+      "features": {
+        "visitorKey": "full-stack-smoke-3",
+        "timestamp": "2024-01-01T00:00:06.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 0,
+        "ipClickCount": 1,
+        "appClickCount": 20,
+        "ipAppCount": 1,
+        "burstScore": 0.0333,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 1,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 1,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.2367
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "hmac-quorum",
+        "signerCount": 1,
+        "requiredQuorum": 1,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [
+          "oracle-1"
+        ],
+        "signatureCount": 1
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010",
+        "eventId": "0x7f8488f12f997da2915ca0cfb7a8d4bc5b8d17b16195728bed77241970cca465"
+      }
+    },
+    {
+      "id": "cid-26c88a003cd51f4309f1d932",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "full-stack-smoke-2",
+      "eventFingerprint": "cid-48e00d5accc3dbd8cf507c1e",
+      "eventId": "0x909c93182aedf0c10fb5695d2202acf881984f42f0dc0e6f084579aa0add5373",
+      "visitorKey": "full-stack-smoke-2",
+      "walletAddress": "0x1111111111111111111111111111111111111111",
+      "timestamp": "2024-01-01T00:00:05.000Z",
+      "processedAt": "2026-03-12T10:04:34.064Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.0008082268,
+      "threshold": 0.8144325166,
+      "model": "hist_gradient_boosting_weighted",
+      "mlLatencyMs": 10,
+      "validationLatencyMs": 12,
+      "features": {
+        "visitorKey": "full-stack-smoke-2",
+        "timestamp": "2024-01-01T00:00:05.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "mobile",
+        "deviceCode": 1,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 0,
+        "ipClickCount": 1,
+        "appClickCount": 19,
+        "ipAppCount": 1,
+        "burstScore": 0.0333,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 1,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 1,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.2367
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "hmac-quorum",
+        "signerCount": 1,
+        "requiredQuorum": 1,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [
+          "oracle-1"
+        ],
+        "signatureCount": 1
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010",
+        "eventId": "0x909c93182aedf0c10fb5695d2202acf881984f42f0dc0e6f084579aa0add5373"
+      }
+    },
+    {
+      "id": "cid-0e6adbdf26342a73465531eb",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "full-stack-smoke-1",
+      "eventFingerprint": "cid-5d618a58a95d26c1cbc09947",
+      "eventId": "0x224932afd41979cb60d2071acd3e6dbc96798362696f41f15b897555f65473e7",
+      "visitorKey": "full-stack-smoke-1",
+      "walletAddress": "0x1111111111111111111111111111111111111111",
+      "timestamp": "2024-01-01T00:00:04.000Z",
+      "processedAt": "2026-03-12T10:04:34.036Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.0008082268,
+      "threshold": 0.8144325166,
+      "model": "hist_gradient_boosting_weighted",
+      "mlLatencyMs": 11,
+      "validationLatencyMs": 14,
+      "features": {
+        "visitorKey": "full-stack-smoke-1",
+        "timestamp": "2024-01-01T00:00:04.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 0,
+        "ipClickCount": 1,
+        "appClickCount": 18,
+        "ipAppCount": 1,
+        "burstScore": 0.0333,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 1,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 1,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.2367
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "hmac-quorum",
+        "signerCount": 1,
+        "requiredQuorum": 1,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [
+          "oracle-1"
+        ],
+        "signatureCount": 1
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010",
+        "eventId": "0x224932afd41979cb60d2071acd3e6dbc96798362696f41f15b897555f65473e7"
+      }
+    },
+    {
+      "id": "cid-6dfee7eb1509e875d6e84c9e",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "requestId": "full-stack-smoke-0",
+      "eventFingerprint": "cid-939c47ecc92e241e49f799c8",
+      "eventId": "0xe9853c8332dbb8f54e85075e417eb55784d3a6115f0acfa1705fc75a7afe6965",
+      "visitorKey": "full-stack-smoke-0",
+      "walletAddress": "0x1111111111111111111111111111111111111111",
+      "timestamp": "2024-01-01T00:00:03.000Z",
+      "processedAt": "2026-03-12T10:04:34.017Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.0008082268,
+      "threshold": 0.8144325166,
+      "model": "hist_gradient_boosting_weighted",
+      "mlLatencyMs": 14,
+      "validationLatencyMs": 20,
+      "features": {
+        "visitorKey": "full-stack-smoke-0",
+        "timestamp": "2024-01-01T00:00:03.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "mobile",
+        "deviceCode": 1,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 0,
+        "ipClickCount": 1,
+        "appClickCount": 17,
+        "ipAppCount": 1,
+        "burstScore": 0.0333,
+        "timeSinceLastClickPerDevice": 30000,
+        "clickCountLast10Seconds": 1,
+        "clickCountLast60Seconds": 1,
+        "clickCountLast10Minutes": 1,
+        "deviceAppEntropy": 0,
+        "deviceIpRatio": 1,
+        "uniqueAppsPerDevice": 1,
+        "uniqueDevicesPerIp": 1,
+        "burstClickScore": 0.2367
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      },
+      "oracle": {
+        "mode": "hmac-quorum",
+        "signerCount": 1,
+        "requiredQuorum": 1,
+        "maxSkewMs": 30000,
+        "verified": true,
+        "matchedSigners": [
+          "oracle-1"
+        ],
+        "signatureCount": 1
+      },
+      "replayProtection": {
+        "ttlMs": 900000
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010",
+        "eventId": "0xe9853c8332dbb8f54e85075e417eb55784d3a6115f0acfa1705fc75a7afe6965"
+      }
+    },
+    {
+      "id": "cid-6992c9c0161373a5ce4d55b7",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "full-stack-smoke",
+      "walletAddress": "0x1111111111111111111111111111111111111111",
+      "timestamp": "2024-01-01T00:00:03.000Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.3377488003566845,
+      "threshold": 0.5,
+      "model": "hist_gradient_boosting",
+      "mlLatencyMs": 254,
+      "features": {
+        "visitorKey": "full-stack-smoke",
+        "timestamp": "2024-01-01T00:00:03.000Z",
+        "clickFrequency": 3,
+        "timeInterval": 250,
+        "deviceType": "mobile",
+        "deviceCode": 1,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 0,
+        "ipClickCount": 3,
+        "appClickCount": 16,
+        "ipAppCount": 3,
+        "burstScore": 3
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 3.0000 indicates compressed click activity."
+          },
+          {
+            "key": "rapid-repeat-clicks",
+            "label": "Rapid repeat clicks",
+            "tone": "risk",
+            "detail": "Clicks arrived 250 ms apart."
+          },
+          {
+            "key": "repeat-visitor-app",
+            "label": "Visitor-app repetition",
+            "tone": "risk",
+            "detail": "Visitor/app pair repeated 3 times."
+          }
+        ]
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      }
+    },
+    {
+      "id": "cid-4cf8cc8cd1a3175ab714ca56",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "f3410893-2911-4d90-9167-816526188c73",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2026-03-11T08:16:53.321Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.2541185522713579,
+      "threshold": 0.65,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "f3410893-2911-4d90-9167-816526188c73",
+        "timestamp": "2026-03-11T08:16:53.321Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 8,
+        "ipClickCount": 1,
+        "appClickCount": 15,
+        "ipAppCount": 1,
+        "burstScore": 0.0333
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-cac4c22b529268c3af939435",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-live-final-1773209121527-ma888",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-03-02T01:00:00.000Z",
+      "app": 888,
+      "valid": true,
+      "confidence": 0.6810324108627711,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-live-final-1773209121527-ma888",
+        "timestamp": "2024-03-02T01:00:00.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 3600000,
+        "deviceType": "mobile",
+        "deviceCode": 1,
+        "app": 888,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 1,
+        "ipClickCount": 2,
+        "appClickCount": 6,
+        "ipAppCount": 2,
+        "burstScore": 0.0003
+      },
+      "settlement": {
+        "status": "confirmed",
+        "simulationMode": false,
+        "payoutEth": "0.0010",
+        "transactionHash": "0x1ca44b9f5c98521985c186647cbeb601bb54be5ae3fcbfcc30fd134ef86a57e2",
+        "blockNumber": 10425176,
+        "gasUsed": "33765",
+        "settlementLatencyMs": 30050,
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0x1ca44b9f5c98521985c186647cbeb601bb54be5ae3fcbfcc30fd134ef86a57e2"
+      },
+      "explanation": {
+        "summary": "low burst score and normal click cadence",
+        "signals": [
+          {
+            "key": "low-burst-score",
+            "label": "Low burst score",
+            "tone": "supporting",
+            "detail": "Burst score 0.0003 stayed below the risk band."
+          },
+          {
+            "key": "normal-cadence",
+            "label": "Normal click cadence",
+            "tone": "supporting",
+            "detail": "Time between clicks was 3600 seconds."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-7e957a6609b7682044847b03",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-live-final-1773209121527-ma888",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-03-02T00:00:00.000Z",
+      "app": 888,
+      "valid": false,
+      "confidence": 0.3399295833482435,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-live-final-1773209121527-ma888",
+        "timestamp": "2024-03-02T00:00:00.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "mobile",
+        "deviceCode": 1,
+        "app": 888,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 0,
+        "ipClickCount": 1,
+        "appClickCount": 5,
+        "ipAppCount": 1,
+        "burstScore": 0.0333
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-860373a7854f6dcfd9f7865f",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-final-1773208951293-ma888",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-03-01T01:00:00.000Z",
+      "app": 888,
+      "valid": true,
+      "confidence": 0.6810324108627712,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-final-1773208951293-ma888",
+        "timestamp": "2024-03-01T01:00:00.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 3600000,
+        "deviceType": "mobile",
+        "deviceCode": 1,
+        "app": 888,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 1,
+        "ipClickCount": 2,
+        "appClickCount": 4,
+        "ipAppCount": 2,
+        "burstScore": 0.0003
+      },
+      "settlement": {
+        "status": "simulated",
+        "simulationMode": true,
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "low burst score and normal click cadence",
+        "signals": [
+          {
+            "key": "low-burst-score",
+            "label": "Low burst score",
+            "tone": "supporting",
+            "detail": "Burst score 0.0003 stayed below the risk band."
+          },
+          {
+            "key": "normal-cadence",
+            "label": "Normal click cadence",
+            "tone": "supporting",
+            "detail": "Time between clicks was 3600 seconds."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-9d05e1aa797c4e487b06c845",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-final-1773208951293-ma888",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-03-01T00:00:00.000Z",
+      "app": 888,
+      "valid": false,
+      "confidence": 0.3091234459423212,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-final-1773208951293-ma888",
+        "timestamp": "2024-03-01T00:00:00.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "mobile",
+        "deviceCode": 1,
+        "app": 888,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 0,
+        "ipClickCount": 1,
+        "appClickCount": 3,
+        "ipAppCount": 1,
+        "burstScore": 0.0333
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-367f2ae18e5b0a5f9d143a73",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-final-1773208951293-dw999",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-03-01T13:00:00.000Z",
+      "app": 999,
+      "valid": true,
+      "confidence": 0.6690512956912936,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-final-1773208951293-dw999",
+        "timestamp": "2024-03-01T13:00:00.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 3600000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 999,
+        "osCode": 19,
+        "channel": 111,
+        "hourOfDay": 13,
+        "ipClickCount": 2,
+        "appClickCount": 2,
+        "ipAppCount": 2,
+        "burstScore": 0.0003
+      },
+      "settlement": {
+        "status": "simulated",
+        "simulationMode": true,
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "low burst score and normal click cadence",
+        "signals": [
+          {
+            "key": "low-burst-score",
+            "label": "Low burst score",
+            "tone": "supporting",
+            "detail": "Burst score 0.0003 stayed below the risk band."
+          },
+          {
+            "key": "normal-cadence",
+            "label": "Normal click cadence",
+            "tone": "supporting",
+            "detail": "Time between clicks was 3600 seconds."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-4b5aa53a7c1dcdedc58acb4c",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-final-1773208951293-dw999",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-03-01T12:00:00.000Z",
+      "app": 999,
+      "valid": false,
+      "confidence": 0.4276535129476042,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-final-1773208951293-dw999",
+        "timestamp": "2024-03-01T12:00:00.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 999,
+        "osCode": 19,
+        "channel": 111,
+        "hourOfDay": 12,
+        "ipClickCount": 1,
+        "appClickCount": 1,
+        "ipAppCount": 1,
+        "burstScore": 0.0333
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-440f643d7b87af0127abe972",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-final-1773208951293-dw888",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-03-01T13:00:00.000Z",
+      "app": 888,
+      "valid": true,
+      "confidence": 0.6690512956912936,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-final-1773208951293-dw888",
+        "timestamp": "2024-03-01T13:00:00.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 3600000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 888,
+        "osCode": 19,
+        "channel": 111,
+        "hourOfDay": 13,
+        "ipClickCount": 2,
+        "appClickCount": 2,
+        "ipAppCount": 2,
+        "burstScore": 0.0003
+      },
+      "settlement": {
+        "status": "simulated",
+        "simulationMode": true,
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "low burst score and normal click cadence",
+        "signals": [
+          {
+            "key": "low-burst-score",
+            "label": "Low burst score",
+            "tone": "supporting",
+            "detail": "Burst score 0.0003 stayed below the risk band."
+          },
+          {
+            "key": "normal-cadence",
+            "label": "Normal click cadence",
+            "tone": "supporting",
+            "detail": "Time between clicks was 3600 seconds."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-5c1a4d500bc11263b4ac7285",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-final-1773208951293-dw888",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-03-01T12:00:00.000Z",
+      "app": 888,
+      "valid": false,
+      "confidence": 0.4276535129476042,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-final-1773208951293-dw888",
+        "timestamp": "2024-03-01T12:00:00.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 888,
+        "osCode": 19,
+        "channel": 111,
+        "hourOfDay": 12,
+        "ipClickCount": 1,
+        "appClickCount": 1,
+        "ipAppCount": 1,
+        "burstScore": 0.0333
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-925773b9d8b6e89909e67072",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-live-mac12",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-02-01T13:00:00.000Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.16667760980342947,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-live-mac12",
+        "timestamp": "2024-02-01T13:00:00.000Z",
+        "clickFrequency": 2,
+        "timeInterval": 250,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 27,
+        "channel": 111,
+        "hourOfDay": 13,
+        "ipClickCount": 4,
+        "appClickCount": 14,
+        "ipAppCount": 4,
+        "burstScore": 2
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 2.0000 indicates compressed click activity."
+          },
+          {
+            "key": "rapid-repeat-clicks",
+            "label": "Rapid repeat clicks",
+            "tone": "risk",
+            "detail": "Clicks arrived 250 ms apart."
+          },
+          {
+            "key": "repeat-visitor-app",
+            "label": "Visitor-app repetition",
+            "tone": "risk",
+            "detail": "Visitor/app pair repeated 4 times."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-b3574acad0f347f356c1b6d4",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-live-mac12",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-02-01T12:00:00.000Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.17678009040039333,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-live-mac12",
+        "timestamp": "2024-02-01T12:00:00.000Z",
+        "clickFrequency": 3,
+        "timeInterval": 250,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 27,
+        "channel": 111,
+        "hourOfDay": 12,
+        "ipClickCount": 3,
+        "appClickCount": 13,
+        "ipAppCount": 3,
+        "burstScore": 3
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 3.0000 indicates compressed click activity."
+          },
+          {
+            "key": "rapid-repeat-clicks",
+            "label": "Rapid repeat clicks",
+            "tone": "risk",
+            "detail": "Clicks arrived 250 ms apart."
+          },
+          {
+            "key": "repeat-visitor-app",
+            "label": "Visitor-app repetition",
+            "tone": "risk",
+            "detail": "Visitor/app pair repeated 3 times."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-f6900b7d4655d29b9fa919c2",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-live-ma12",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-02-01T01:00:00.000Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.1030888455575276,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-live-ma12",
+        "timestamp": "2024-02-01T01:00:00.000Z",
+        "clickFrequency": 2,
+        "timeInterval": 250,
+        "deviceType": "mobile",
+        "deviceCode": 1,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 1,
+        "ipClickCount": 4,
+        "appClickCount": 12,
+        "ipAppCount": 4,
+        "burstScore": 2
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 2.0000 indicates compressed click activity."
+          },
+          {
+            "key": "rapid-repeat-clicks",
+            "label": "Rapid repeat clicks",
+            "tone": "risk",
+            "detail": "Clicks arrived 250 ms apart."
+          },
+          {
+            "key": "repeat-visitor-app",
+            "label": "Visitor-app repetition",
+            "tone": "risk",
+            "detail": "Visitor/app pair repeated 4 times."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-0be9747ddfd893e76d515448",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-live-ma12",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-02-01T00:00:00.000Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.11718647709555428,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-live-ma12",
+        "timestamp": "2024-02-01T00:00:00.000Z",
+        "clickFrequency": 3,
+        "timeInterval": 250,
+        "deviceType": "mobile",
+        "deviceCode": 1,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 0,
+        "ipClickCount": 3,
+        "appClickCount": 11,
+        "ipAppCount": 3,
+        "burstScore": 3
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 3.0000 indicates compressed click activity."
+          },
+          {
+            "key": "rapid-repeat-clicks",
+            "label": "Rapid repeat clicks",
+            "tone": "risk",
+            "detail": "Clicks arrived 250 ms apart."
+          },
+          {
+            "key": "repeat-visitor-app",
+            "label": "Visitor-app repetition",
+            "tone": "risk",
+            "detail": "Visitor/app pair repeated 3 times."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-ae150a792f9e561767ce81d0",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-live-dw77",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-02-01T13:00:00.000Z",
+      "app": 77,
+      "valid": false,
+      "confidence": 0.1385060228972765,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-live-dw77",
+        "timestamp": "2024-02-01T13:00:00.000Z",
+        "clickFrequency": 2,
+        "timeInterval": 250,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 77,
+        "osCode": 19,
+        "channel": 111,
+        "hourOfDay": 13,
+        "ipClickCount": 4,
+        "appClickCount": 4,
+        "ipAppCount": 4,
+        "burstScore": 2
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 2.0000 indicates compressed click activity."
+          },
+          {
+            "key": "rapid-repeat-clicks",
+            "label": "Rapid repeat clicks",
+            "tone": "risk",
+            "detail": "Clicks arrived 250 ms apart."
+          },
+          {
+            "key": "repeat-visitor-app",
+            "label": "Visitor-app repetition",
+            "tone": "risk",
+            "detail": "Visitor/app pair repeated 4 times."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-10da7afffa40e8860c550e27",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-live-dw77",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-02-01T12:00:00.000Z",
+      "app": 77,
+      "valid": false,
+      "confidence": 0.14065279681142498,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-live-dw77",
+        "timestamp": "2024-02-01T12:00:00.000Z",
+        "clickFrequency": 3,
+        "timeInterval": 250,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 77,
+        "osCode": 19,
+        "channel": 111,
+        "hourOfDay": 12,
+        "ipClickCount": 3,
+        "appClickCount": 3,
+        "ipAppCount": 3,
+        "burstScore": 3
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 3.0000 indicates compressed click activity."
+          },
+          {
+            "key": "rapid-repeat-clicks",
+            "label": "Rapid repeat clicks",
+            "tone": "risk",
+            "detail": "Clicks arrived 250 ms apart."
+          },
+          {
+            "key": "repeat-visitor-app",
+            "label": "Visitor-app repetition",
+            "tone": "risk",
+            "detail": "Visitor/app pair repeated 3 times."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-fee780d108c50f6bca04111a",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-live-dw12",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-02-01T13:00:00.000Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.09628024313752653,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-live-dw12",
+        "timestamp": "2024-02-01T13:00:00.000Z",
+        "clickFrequency": 2,
+        "timeInterval": 250,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 19,
+        "channel": 111,
+        "hourOfDay": 13,
+        "ipClickCount": 4,
+        "appClickCount": 10,
+        "ipAppCount": 4,
+        "burstScore": 2
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 2.0000 indicates compressed click activity."
+          },
+          {
+            "key": "rapid-repeat-clicks",
+            "label": "Rapid repeat clicks",
+            "tone": "risk",
+            "detail": "Clicks arrived 250 ms apart."
+          },
+          {
+            "key": "repeat-visitor-app",
+            "label": "Visitor-app repetition",
+            "tone": "risk",
+            "detail": "Visitor/app pair repeated 4 times."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-382967e0a4c612a256b40316",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-live-dw12",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-02-01T12:00:00.000Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.09743060117694348,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-live-dw12",
+        "timestamp": "2024-02-01T12:00:00.000Z",
+        "clickFrequency": 3,
+        "timeInterval": 250,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 19,
+        "channel": 111,
+        "hourOfDay": 12,
+        "ipClickCount": 3,
+        "appClickCount": 9,
+        "ipAppCount": 3,
+        "burstScore": 3
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 3.0000 indicates compressed click activity."
+          },
+          {
+            "key": "rapid-repeat-clicks",
+            "label": "Rapid repeat clicks",
+            "tone": "risk",
+            "detail": "Clicks arrived 250 ms apart."
+          },
+          {
+            "key": "repeat-visitor-app",
+            "label": "Visitor-app repetition",
+            "tone": "risk",
+            "detail": "Visitor/app pair repeated 3 times."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-ae9eb4e8f3eecb475227cc4c",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-live-mac12",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-02-01T13:00:00.000Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.7049305814665321,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-live-mac12",
+        "timestamp": "2024-02-01T13:00:00.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 3600000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 27,
+        "channel": 111,
+        "hourOfDay": 13,
+        "ipClickCount": 2,
+        "appClickCount": 8,
+        "ipAppCount": 2,
+        "burstScore": 0.0003
+      },
+      "settlement": {
+        "status": "simulated",
+        "simulationMode": true,
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "low burst score and normal click cadence",
+        "signals": [
+          {
+            "key": "low-burst-score",
+            "label": "Low burst score",
+            "tone": "supporting",
+            "detail": "Burst score 0.0003 stayed below the risk band."
+          },
+          {
+            "key": "normal-cadence",
+            "label": "Normal click cadence",
+            "tone": "supporting",
+            "detail": "Time between clicks was 3600 seconds."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-f9bb8687efbf9119bd1b0c05",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-live-mac12",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-02-01T12:00:00.000Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.4523656984150254,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-live-mac12",
+        "timestamp": "2024-02-01T12:00:00.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 27,
+        "channel": 111,
+        "hourOfDay": 12,
+        "ipClickCount": 1,
+        "appClickCount": 7,
+        "ipAppCount": 1,
+        "burstScore": 0.0333
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-374ed0e63a962060db18c383",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-live-ma12",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-02-01T01:00:00.000Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.7091372230947054,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-live-ma12",
+        "timestamp": "2024-02-01T01:00:00.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 3600000,
+        "deviceType": "mobile",
+        "deviceCode": 1,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 1,
+        "ipClickCount": 2,
+        "appClickCount": 6,
+        "ipAppCount": 2,
+        "burstScore": 0.0003
+      },
+      "settlement": {
+        "status": "simulated",
+        "simulationMode": true,
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "low burst score and normal click cadence",
+        "signals": [
+          {
+            "key": "low-burst-score",
+            "label": "Low burst score",
+            "tone": "supporting",
+            "detail": "Burst score 0.0003 stayed below the risk band."
+          },
+          {
+            "key": "normal-cadence",
+            "label": "Normal click cadence",
+            "tone": "supporting",
+            "detail": "Time between clicks was 3600 seconds."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-b321ca46dc94f899ead0b274",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-live-ma12",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-02-01T00:00:00.000Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.2168723209363706,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-live-ma12",
+        "timestamp": "2024-02-01T00:00:00.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "mobile",
+        "deviceCode": 1,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 0,
+        "ipClickCount": 1,
+        "appClickCount": 5,
+        "ipAppCount": 1,
+        "burstScore": 0.0333
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-053b188b98c96b29f72a0d7c",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-live-dw77",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-02-01T13:00:00.000Z",
+      "app": 77,
+      "valid": true,
+      "confidence": 0.6681397195546165,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-live-dw77",
+        "timestamp": "2024-02-01T13:00:00.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 3600000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 77,
+        "osCode": 19,
+        "channel": 111,
+        "hourOfDay": 13,
+        "ipClickCount": 2,
+        "appClickCount": 2,
+        "ipAppCount": 2,
+        "burstScore": 0.0003
+      },
+      "settlement": {
+        "status": "simulated",
+        "simulationMode": true,
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "low burst score and normal click cadence",
+        "signals": [
+          {
+            "key": "low-burst-score",
+            "label": "Low burst score",
+            "tone": "supporting",
+            "detail": "Burst score 0.0003 stayed below the risk band."
+          },
+          {
+            "key": "normal-cadence",
+            "label": "Normal click cadence",
+            "tone": "supporting",
+            "detail": "Time between clicks was 3600 seconds."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-e46af82e7bf7fb21d180595a",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-live-dw77",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-02-01T12:00:00.000Z",
+      "app": 77,
+      "valid": false,
+      "confidence": 0.4637488305785692,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-live-dw77",
+        "timestamp": "2024-02-01T12:00:00.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 77,
+        "osCode": 19,
+        "channel": 111,
+        "hourOfDay": 12,
+        "ipClickCount": 1,
+        "appClickCount": 1,
+        "ipAppCount": 1,
+        "burstScore": 0.0333
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-3b925d8860c0cdc6e151cac9",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-live-dw12",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-02-01T13:00:00.000Z",
+      "app": 12,
+      "valid": true,
+      "confidence": 0.6975431488841408,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-live-dw12",
+        "timestamp": "2024-02-01T13:00:00.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 3600000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 19,
+        "channel": 111,
+        "hourOfDay": 13,
+        "ipClickCount": 2,
+        "appClickCount": 4,
+        "ipAppCount": 2,
+        "burstScore": 0.0003
+      },
+      "settlement": {
+        "status": "simulated",
+        "simulationMode": true,
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "low burst score and normal click cadence",
+        "signals": [
+          {
+            "key": "low-burst-score",
+            "label": "Low burst score",
+            "tone": "supporting",
+            "detail": "Burst score 0.0003 stayed below the risk band."
+          },
+          {
+            "key": "normal-cadence",
+            "label": "Normal click cadence",
+            "tone": "supporting",
+            "detail": "Time between clicks was 3600 seconds."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-50cb71fcd06b60d729284ca4",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "sepolia-live-dw12",
+      "walletAddress": "0x61AAb32D5AF35c6067057ef9A6899f8bD8d70720",
+      "timestamp": "2024-02-01T12:00:00.000Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.3351602013242171,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "sepolia-live-dw12",
+        "timestamp": "2024-02-01T12:00:00.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "desktop",
+        "deviceCode": 2,
+        "app": 12,
+        "osCode": 19,
+        "channel": 111,
+        "hourOfDay": 12,
+        "ipClickCount": 1,
+        "appClickCount": 3,
+        "ipAppCount": 1,
+        "burstScore": 0.0333
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-1d36858d08e2c17f0080d741",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "full-stack-smoke",
+      "walletAddress": "0x1111111111111111111111111111111111111111",
+      "timestamp": "2024-01-01T00:00:03.000Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.11390354081135877,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "full-stack-smoke",
+        "timestamp": "2024-01-01T00:00:03.000Z",
+        "clickFrequency": 2,
+        "timeInterval": 250,
+        "deviceType": "mobile",
+        "deviceCode": 1,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 0,
+        "ipClickCount": 2,
+        "appClickCount": 2,
+        "ipAppCount": 2,
+        "burstScore": 2
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 2.0000 indicates compressed click activity."
+          },
+          {
+            "key": "rapid-repeat-clicks",
+            "label": "Rapid repeat clicks",
+            "tone": "risk",
+            "detail": "Clicks arrived 250 ms apart."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cid-e9ece0cf22a970986e82f26f",
+      "campaignId": "cmp-seeded-demo",
+      "campaignTitle": "TalkingData Quality Screen Demo",
+      "visitorKey": "full-stack-smoke",
+      "walletAddress": "0x1111111111111111111111111111111111111111",
+      "timestamp": "2024-01-01T00:00:03.000Z",
+      "app": 12,
+      "valid": false,
+      "confidence": 0.21198347596149555,
+      "threshold": 0.6000000000000001,
+      "model": "random_forest",
+      "features": {
+        "visitorKey": "full-stack-smoke",
+        "timestamp": "2024-01-01T00:00:03.000Z",
+        "clickFrequency": 1,
+        "timeInterval": 30000,
+        "deviceType": "mobile",
+        "deviceCode": 1,
+        "app": 12,
+        "osCode": 13,
+        "channel": 111,
+        "hourOfDay": 0,
+        "ipClickCount": 1,
+        "appClickCount": 1,
+        "ipAppCount": 1,
+        "burstScore": 0.0333
+      },
+      "settlement": {
+        "status": "blocked",
+        "payoutEth": "0.0010"
+      },
+      "explanation": {
+        "summary": "IP burst",
+        "signals": [
+          {
+            "key": "ip-burst",
+            "label": "IP burst",
+            "tone": "risk",
+            "detail": "Burst score 0.0333 indicates compressed click activity."
+          }
+        ]
+      }
+    }
+  ],
+  "settlements": [
+    {
+      "id": "cid-8e602496c2b66f43f5a1526f",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2026-03-13T15:19:01.364Z",
+      "status": "confirmed",
+      "simulationMode": false,
+      "payoutEth": "0.0010",
+      "eventId": "0xdba6784743154fb70107229ce63c1600283f2a626993e6d7d436e1c1d97545e9",
+      "settlementMethod": "legacy",
+      "transactionHash": "0x55df7fa075884617092146fee11104e68e2eb0402622e206e754bef9ef9de4cd",
+      "blockNumber": 10439825,
+      "gasUsed": "34268",
+      "settlementLatencyMs": 13439,
+      "explorerUrl": "https://sepolia.etherscan.io/tx/0x55df7fa075884617092146fee11104e68e2eb0402622e206e754bef9ef9de4cd"
+    },
+    {
+      "id": "cid-b9558bd2b4035481db692d1d",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2026-03-13T15:18:29.637Z",
+      "status": "confirmed",
+      "simulationMode": false,
+      "payoutEth": "0.0010",
+      "eventId": "0x3ed07645eb1dd96237601f1907976b558386f8ba7cde130780e7405ecfe297f7",
+      "settlementMethod": "legacy",
+      "transactionHash": "0x11fcafbb7988bd97140e1ac3915213e4fa0ad9c50bbac1ad8b8ed55cf89657fa",
+      "blockNumber": 10439822,
+      "gasUsed": "34268",
+      "settlementLatencyMs": 9202,
+      "explorerUrl": "https://sepolia.etherscan.io/tx/0x11fcafbb7988bd97140e1ac3915213e4fa0ad9c50bbac1ad8b8ed55cf89657fa"
+    },
+    {
+      "id": "cid-f3c2438cb8dea8ba015a1622",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2026-03-13T15:17:57.799Z",
+      "status": "confirmed",
+      "simulationMode": false,
+      "payoutEth": "0.0010",
+      "eventId": "0xc0103a08e9b75065e2525a6a267ec7110128ccbf68394967d8048e4345d60633",
+      "settlementMethod": "legacy",
+      "transactionHash": "0xcccf4a8c428cdd74aba6eb8f2d35be8c4ee7a8765cde6c850c91d6fdecfe98b5",
+      "blockNumber": 10439821,
+      "gasUsed": "34268",
+      "settlementLatencyMs": 17463,
+      "explorerUrl": "https://sepolia.etherscan.io/tx/0xcccf4a8c428cdd74aba6eb8f2d35be8c4ee7a8765cde6c850c91d6fdecfe98b5"
+    },
+    {
+      "id": "cid-2a0b99d6b1a4fe3237da4e13",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2026-03-13T14:02:04.640Z",
+      "status": "simulated",
+      "simulationMode": true,
+      "payoutEth": "0.0010",
+      "eventId": "0x572614cb437f028b80c25fa38f9cd59d987f4cae333897c71ba40057c4dd956c"
+    },
+    {
+      "id": "cid-a8d9bc20ca580186a6eae0fd",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2026-03-13T08:24:19.553Z",
+      "status": "confirmed",
+      "simulationMode": false,
+      "payoutEth": "0.0010",
+      "eventId": "0x626e8e0e761b26e03b37f75b0f247be4cfb30ba5a73204eaac03216588045578",
+      "settlementMethod": "event-id",
+      "transactionHash": "0xea5a554dd0131281778f81d778bfcb592f05797118a309af040df28860f2a53f",
+      "blockNumber": 10437999,
+      "gasUsed": "62068",
+      "settlementLatencyMs": 4956,
+      "explorerUrl": "https://sepolia.etherscan.io/tx/0xea5a554dd0131281778f81d778bfcb592f05797118a309af040df28860f2a53f"
+    },
+    {
+      "id": "cid-b56403ba6485e6c73fe65bc8",
+      "campaignId": "cmp-363416938ceee169",
+      "timestamp": "2026-03-13T08:24:07.887Z",
+      "status": "confirmed",
+      "simulationMode": false,
+      "payoutEth": "0.0010",
+      "eventId": "0x50d8b1c7d9c6ccb9aa976748de8d61345347609b276162e3ed73f545163f60da",
+      "settlementMethod": "event-id",
+      "transactionHash": "0x944f5f61d84f36c143ce9433bd3d34c9d566d2502256d62d9ad889e9b2d840be",
+      "blockNumber": 10437998,
+      "gasUsed": "62068",
+      "settlementLatencyMs": 4855,
+      "explorerUrl": "https://sepolia.etherscan.io/tx/0x944f5f61d84f36c143ce9433bd3d34c9d566d2502256d62d9ad889e9b2d840be"
+    },
+    {
+      "id": "cid-13ecac996d23f8d23cb837dc",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2026-03-13T06:13:29.040Z",
+      "status": "confirmed",
+      "simulationMode": false,
+      "payoutEth": "0.0010",
+      "eventId": "0xb8d3bec9550c5f0edcc46815fb3a9f3a7b95541a05dc21f1faafbd2bde17ade5",
+      "settlementMethod": "event-id",
+      "transactionHash": "0xc08c0a8af9ca06a90f2d7b4134a935f9e048f2a2450edab9cbda07a7ae24a883",
+      "blockNumber": 10437441,
+      "gasUsed": "62068",
+      "settlementLatencyMs": 9139,
+      "explorerUrl": "https://sepolia.etherscan.io/tx/0xc08c0a8af9ca06a90f2d7b4134a935f9e048f2a2450edab9cbda07a7ae24a883"
+    },
+    {
+      "id": "cid-37d8135a5fabc1f31ccca377",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2026-03-13T05:34:22.853Z",
+      "status": "confirmed",
+      "simulationMode": false,
+      "payoutEth": "0.0010",
+      "eventId": "0x875c9a09effa2e0cd28118839b88a05e86a5f561e9ca4a47696cfd6b9587ff2b",
+      "settlementMethod": "event-id",
+      "transactionHash": "0xe3fce303fbb87c7ec096dc964da822f82ddcf010f048d09ce065384db960f5de",
+      "blockNumber": 10437280,
+      "gasUsed": "79168",
+      "settlementLatencyMs": 13676,
+      "explorerUrl": "https://sepolia.etherscan.io/tx/0xe3fce303fbb87c7ec096dc964da822f82ddcf010f048d09ce065384db960f5de"
+    },
+    {
+      "id": "cid-d0730cf8fb38ec153add684a",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2024-01-01T00:00:07.000Z",
+      "status": "confirmed",
+      "simulationMode": false,
+      "payoutEth": "0.0010",
+      "eventId": "0xb91369ef908f2b4806f558e54c484444a8322b415823cb9ae1adc407cbe6c9bd",
+      "settlementMethod": "event-id",
+      "transactionHash": "0xdd2cb4cc79d8c8b204430f7a49d2bd13b2356451d9903ea22ed0faa32f891f1b",
+      "blockNumber": 10437205,
+      "gasUsed": "62068",
+      "settlementLatencyMs": 13144,
+      "explorerUrl": "https://sepolia.etherscan.io/tx/0xdd2cb4cc79d8c8b204430f7a49d2bd13b2356451d9903ea22ed0faa32f891f1b"
+    },
+    {
+      "id": "cid-e8aa4a46188422718e90b2a3",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2024-01-01T00:00:06.000Z",
+      "status": "confirmed",
+      "simulationMode": false,
+      "payoutEth": "0.0010",
+      "eventId": "0x6bb816056e1ea42870a483ec02f1a9cf7f84924a622a9a0f33290c4a1c323844",
+      "settlementMethod": "event-id",
+      "transactionHash": "0x6ca25847151c83717100ae73ffae748e32c6c91e631d5946d6b50f81f4aa551a",
+      "blockNumber": 10437204,
+      "gasUsed": "62068",
+      "settlementLatencyMs": 21469,
+      "explorerUrl": "https://sepolia.etherscan.io/tx/0x6ca25847151c83717100ae73ffae748e32c6c91e631d5946d6b50f81f4aa551a"
+    },
+    {
+      "id": "cid-2a60de4a870738adf1e5da6a",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2024-01-01T00:00:05.000Z",
+      "status": "confirmed",
+      "simulationMode": false,
+      "payoutEth": "0.0010",
+      "eventId": "0x3382e91bd8e689119c227389c3f41fb7b46ee3e8c1c32c6d85d90ffee3b07b08",
+      "settlementMethod": "event-id",
+      "transactionHash": "0x3b4ea851e4e0a323c5d118ea32c190c2d5a411ec120a94715970f8ea4338199a",
+      "blockNumber": 10437203,
+      "gasUsed": "62068",
+      "settlementLatencyMs": 25375,
+      "explorerUrl": "https://sepolia.etherscan.io/tx/0x3b4ea851e4e0a323c5d118ea32c190c2d5a411ec120a94715970f8ea4338199a"
+    },
+    {
+      "id": "cid-d2d37d4ae0eda2f2747dd7c5",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2024-01-01T00:00:04.000Z",
+      "status": "confirmed",
+      "simulationMode": false,
+      "payoutEth": "0.0010",
+      "eventId": "0xfa15b4febeec5b7bcaa7747c401b663a8cd460c26ffa178b99d435f7081d0eed",
+      "settlementMethod": "event-id",
+      "transactionHash": "0xd4c43b33f7b90a817055c55f3fedd4776fbfea579cb592e3e396ab856f5edb48",
+      "blockNumber": 10437202,
+      "gasUsed": "62068",
+      "settlementLatencyMs": 13174,
+      "explorerUrl": "https://sepolia.etherscan.io/tx/0xd4c43b33f7b90a817055c55f3fedd4776fbfea579cb592e3e396ab856f5edb48"
+    },
+    {
+      "id": "cid-6fe4d2913d57534a018c2f53",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2024-01-01T00:00:03.000Z",
+      "status": "confirmed",
+      "simulationMode": false,
+      "payoutEth": "0.0010",
+      "eventId": "0x9ff700403c5c793b6c95f6708d902c3145ef6f8552f32cab4314a8f123058848",
+      "settlementMethod": "event-id",
+      "transactionHash": "0x08bf770e6c23d724a3517f22ccc7c9232179231e995cf57b3cc632ee899b13a5",
+      "blockNumber": 10437201,
+      "gasUsed": "62056",
+      "settlementLatencyMs": 8978,
+      "explorerUrl": "https://sepolia.etherscan.io/tx/0x08bf770e6c23d724a3517f22ccc7c9232179231e995cf57b3cc632ee899b13a5"
+    },
+    {
+      "id": "cid-cac4c22b529268c3af939435",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2024-03-02T01:00:00.000Z",
+      "status": "confirmed",
+      "simulationMode": false,
+      "payoutEth": "0.0010",
+      "transactionHash": "0x1ca44b9f5c98521985c186647cbeb601bb54be5ae3fcbfcc30fd134ef86a57e2",
+      "blockNumber": 10425176,
+      "gasUsed": "33765",
+      "settlementLatencyMs": 30050,
+      "explorerUrl": "https://sepolia.etherscan.io/tx/0x1ca44b9f5c98521985c186647cbeb601bb54be5ae3fcbfcc30fd134ef86a57e2"
+    },
+    {
+      "id": "cid-860373a7854f6dcfd9f7865f",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2024-03-01T01:00:00.000Z",
+      "status": "simulated",
+      "simulationMode": true,
+      "payoutEth": "0.0010"
+    },
+    {
+      "id": "cid-367f2ae18e5b0a5f9d143a73",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2024-03-01T13:00:00.000Z",
+      "status": "simulated",
+      "simulationMode": true,
+      "payoutEth": "0.0010"
+    },
+    {
+      "id": "cid-440f643d7b87af0127abe972",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2024-03-01T13:00:00.000Z",
+      "status": "simulated",
+      "simulationMode": true,
+      "payoutEth": "0.0010"
+    },
+    {
+      "id": "cid-ae9eb4e8f3eecb475227cc4c",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2024-02-01T13:00:00.000Z",
+      "status": "simulated",
+      "simulationMode": true,
+      "payoutEth": "0.0010"
+    },
+    {
+      "id": "cid-374ed0e63a962060db18c383",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2024-02-01T01:00:00.000Z",
+      "status": "simulated",
+      "simulationMode": true,
+      "payoutEth": "0.0010"
+    },
+    {
+      "id": "cid-053b188b98c96b29f72a0d7c",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2024-02-01T13:00:00.000Z",
+      "status": "simulated",
+      "simulationMode": true,
+      "payoutEth": "0.0010"
+    },
+    {
+      "id": "cid-3b925d8860c0cdc6e151cac9",
+      "campaignId": "cmp-seeded-demo",
+      "timestamp": "2024-02-01T13:00:00.000Z",
+      "status": "simulated",
+      "simulationMode": true,
+      "payoutEth": "0.0010"
+    }
+  ]
+}
